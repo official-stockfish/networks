@@ -8,7 +8,7 @@ The networks follow the naming convention
 ```
 nn-SHA.bin
 ```
-where SHA are the first 12 digits of the sha256sum of the nn.bin data file.
+where SHA are the first 12 digits of the sha256sum of the nn.bin data file (`sha256sum nn.bin | cut -c1-12`).
 
 For a given Stockfish version, the default network name (UCI option `EvalFile`),
 specifies the compatible and tested network file name. Other combinations may or may not work.
@@ -21,4 +21,4 @@ changes the default value of EvalFile to match the network name.
 
 As a form of documentation, for the benefit of other developers,
 the commit message of the pull request should specify basic information
-on how the net has been created.
+on how the net has been created. Please update the AUTHORS file.
