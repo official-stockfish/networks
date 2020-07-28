@@ -6,9 +6,9 @@ This repository contains the networks as required by the NNUE evaluation in Stoc
 
 The networks follow the naming convention
 ```
-nn-SHA.bin
+nn-SHA.nnue
 ```
-where SHA are the first 12 digits of the sha256sum of the nn.bin data file (`sha256sum nn.bin | cut -c1-12`).
+where SHA are the first 12 digits of the sha256sum of the nn.nnue data file (`sha256sum nn.nnue | cut -c1-12`).
 
 For a given Stockfish version, the default network name (UCI option `EvalFile`),
 specifies the compatible and tested network file name. Other combinations may or may not work.
