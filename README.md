@@ -1,6 +1,10 @@
-# networks
+# networks (private directory)
 
-This repository contains the networks as required by the NNUE evaluation in Stockfish.
+This repository may contain in the future the networks as required by the NNUE evaluation in Stockfish.
+At the time of this writing (12th of August, 2020) this directory has been made private to hide it
+and avoid confusion for the general users, because we moved away from github to store networks to a 
+dedicated server donated by noobpwnftw (see https://tests.stockfishchess.org/nns). We keep this directory
+"just in case" we might want to come back to github to store networks in the future.
 
 ## general
 
