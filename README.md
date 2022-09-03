@@ -1,18 +1,21 @@
-# networks (private directory)
+# networks
 
 This repository contains the networks as required by the NNUE evaluation in Stockfish:
 
 https://github.com/official-stockfish/Stockfish/
 
-It is intended to preserve all networks used in the master branch of Stockfish, to ensure this branch can always be built,
-irrespective of the state of the stockfish infrastructure that usually provides these networks.
+The strongest known network is integrated in the binary of Stockfish for most distributions,
+and can be exported from this binary with with the UCI command `export_net`.
+For a given Stockfish version, the default network name (UCI option `EvalFile`),
+specifies the compatible and tested network file name. Other combinations may or may not work.
+
+This repository is intended for developers to preserve all networks used in the master branch of Stockfish,
+to ensure this branch can always be built, irrespective of the state of the Stockfish
+infrastructure that usually provides these networks:
 
 https://tests.stockfishchess.org/nns
 
 This website also documents who authored the network, and when and how it was tested.
-
-For a given Stockfish version, the default network name (UCI option `EvalFile`),
-specifies the compatible and tested network file name. Other combinations may or may not work.
 
 The preferred way to obtain the networks is to rely on the integration in the build process of stockfish,
 i.e. either using `make net` or by building the code. This will automatically download the net from
