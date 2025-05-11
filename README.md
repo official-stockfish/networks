@@ -24,4 +24,4 @@ i.e. either using `make net` or by building the code. This will automatically do
 
 where `<SHA>` are the first 12 digits of the sha256sum of the nn.nnue data file (`sha256sum nn.nnue | cut -c1-12`).
 
-All networks in this repository were [uploaded](https://tests.stockfishchess.org/upload) by the authors under the CC0 license.
+All networks in this repository were [uploaded](https://tests.stockfishchess.org/upload) by the authors under the [CC0 license](LICENSE).
